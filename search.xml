@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>中文</title>
+      <link href="/2021/09/10/zhong-wen/"/>
+      <url>/2021/09/10/zhong-wen/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>hexo 博客部署到腾讯云服务器</title>
+      <link href="/2021/09/10/server-deploy/"/>
+      <url>/2021/09/10/server-deploy/</url>
+      
+        <content type="html"><![CDATA[<pre class=" language-python"><code class="language-python"><span class="token triple-quoted-string string">'''测试以下'''</span>list<span class="token punctuation">(</span>range<span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">)</span><span class="token punctuation">)</span></code></pre>]]></content>
+      
+      
+      <categories>
+          
+          <category> 服务器 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>matery 主题介绍</title>
+      <link href="/2021/09/10/theme-matery/"/>
+      <url>/2021/09/10/theme-matery/</url>
+      
+        <content type="html"><![CDATA[<h1 id="唠唠闲话"><a href="#唠唠闲话" class="headerlink" title="唠唠闲话"></a>唠唠闲话</h1><p>惯例，新主题的第一篇是主题介绍和教程。Matery 是一个采用 Material Design 和响应式设计的 Hexo 博客主题。入手这一主题，主要是看了<a href="https://www.yshawlon.cn/">这篇博客</a>，整体风格非常不错。</p><p>同样地，官方介绍有的这里就不细写了，本篇主要记录实现新功能时所做的修改。</p><blockquote><p><strong>参考链接</strong><br>官方：<a href="http://blinkfox.com/2018/09/28/qian-duan/hexo-bo-ke-zhu-ti-zhi-hexo-theme-matery-de-jie-shao/">博客主题 hexo-theme-matery 的介绍</a><br>shawlon：<a href="https://www.yshawlon.cn/hexo-ge-ren-bo-ke-zhi-bo-ke-zhu-ti-mei-hua.html">Hexo-个人之博客主题美化</a></p></blockquote><h1 id="安装插件"><a href="#安装插件" class="headerlink" title="安装插件"></a>安装插件</h1><pre><code>npm i -S hexo-prism-plugin # 代码高亮npm install hexo-generator-search --save # 内容搜索npm i hexo-permalink-pinyin --save # 中文链接转英文，利于 SEOnpm i --save hexo-wordcount # 字数统计</code></pre><h1 id="功能设置"><a href="#功能设置" class="headerlink" title="功能设置"></a>功能设置</h1><h2 id="隐藏文章"><a href="#隐藏文章" class="headerlink" title="隐藏文章"></a>隐藏文章</h2><p>找了一圈，没看 Matery 主题下隐藏文章的教程。由于 hexo 主题的设置都很类似，我便直接在 layout 文件夹下检索 <code>page.post</code>，却发现 Matery 已经自带了隐藏文章的功能，不需要修改代码。如下图<br><img src="https://cdn.jsdelivr.net/gh/RexWzh/PicBed@picgo/picgo_folder/%E6%B7%B1%E5%BA%A6%E6%88%AA%E5%9B%BE_%E9%80%89%E6%8B%A9%E5%8C%BA%E5%9F%9F_20210910101227.png" alt="pic"></p><p>在需要隐藏的文章头部输入 <code>hide: true</code> ，则该文章不会出现在主页面。</p>]]></content>
+      
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
